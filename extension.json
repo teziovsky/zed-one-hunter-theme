@@ -1,0 +1,7 @@
+{
+  "name": "One Hunter Theme",
+  "version": "0.0.1",
+  "authors": ["Jakub Soboczyński <teziovsky@gmail.com>"],
+  "description": "A port to Zed of the famous One Hunter Theme for VSCode by Railly Hugo",
+  "repository": "https://github.com/elGusto/night-owlz"
+}

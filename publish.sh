@@ -41,6 +41,9 @@ if [ "$confirm" != "y" ]; then
     exit 0
 fi
 
+# Modify the "version" key in the JSON file
+sed -i.bak "s/\"version\": \".*\"/\"version\": \"$new_tag\"/" extension.json && rm extension.json.bak
+
 # Create a new tag and push it to the remote repository
 git tag "$new_tag"
 git push origin "$new_tag"

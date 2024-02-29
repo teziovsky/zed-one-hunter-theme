@@ -1508,6 +1508,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "property": {
+            "color": "#DD4F7D",
+            "font_style": null,
+            "font_weight": null
+          },
           "punctuation": {
             "color": "#EFEFEF",
             "font_style": null,
@@ -1563,8 +1568,13 @@
             "font_style": null,
             "font_weight": null
           },
+          "tag": {
+            "color": "#43AAF9",
+            "font_style": null,
+            "font_weight": null
+          },
           "type": {
-            "color": "#FAC760",
+            "color": "#DD4F7D",
             "font_style": null,
             "font_weight": null
           },

@@ -1,6 +1,6 @@
 {
   "name": "One Hunter Theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": ["Jakub Soboczyński <teziovsky@gmail.com>"],
   "description": "A port to Zed of the famous One Hunter Theme for VSCode by Railly Hugo",
   "repository": "https://github.com/teziovsky/zed-one-hunter-theme"

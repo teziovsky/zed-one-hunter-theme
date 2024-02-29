@@ -45,7 +45,7 @@ fi
 sed -i.bak "s/\"version\": \".*\"/\"version\": \"$new_tag\"/" extension.json && rm extension.json.bak
 
 # Create a new tag and push it to the remote repository
-git tag "$new_tag"
-git push origin "$new_tag"
+git tag "v$new_tag"
+git push origin "v$new_tag"
 
 echo "New tag $new_tag created and pushed to the remote repository."
